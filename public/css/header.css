@@ -1,0 +1,24 @@
+header {
+    width: 100%;
+}
+header .logo {
+    background-image: url('/images/logo.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: solid 1px var(--colorGrisClaro);
+    height: 180px;
+    margin: 15px auto 30px;
+    width: 180px;
+}
+header button {
+    width: 50px;
+    padding: 5px;
+    font-size: 32px;
+    background-color: var(--colorGrisOscuro);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto 30px;
+    display: block;
+}
