@@ -1,24 +1,33 @@
 header {
-    width: 100%;
+  width: 100%;
 }
-header .logo {
-    background-image: url('/images/logo.jpg');
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
-    border: solid 1px var(--colorGrisClaro);
-    height: 180px;
-    margin: 15px auto 30px;
-    width: 180px;
+.header__logo {
+  background-image: url("/images/logo.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: solid 1px var(--colorGrisClaro);
+  height: 180px;
+  margin: 15px auto 30px;
+  width: 180px;
 }
-header button {
-    width: 50px;
-    padding: 5px;
-    font-size: 32px;
-    background-color: var(--colorGrisOscuro);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin: 0 auto 30px;
-    display: block;
+.header__burger {
+  background-color: var(--colorGrisOscuro);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 32px;
+  margin: 0 auto 30px;
+  padding: 5px;
+  width: 50px;
+}
+
+.header__menu li {
+  width: 100%;
+  background-color: var(--colorGrisOscuro);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: solid 2px white;
 }
