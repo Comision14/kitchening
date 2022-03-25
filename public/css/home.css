@@ -85,4 +85,21 @@ body.home {
     
 }
 
+/* laptops */
+@media (min-width: 768px){
 
+    /* products */
+    .home__product {
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    .home__product:nth-child(even){
+        margin-right: 2%;
+    }
+
+    .home__product:nth-child(3n){
+        margin-right: 0;
+    }
+
+}
