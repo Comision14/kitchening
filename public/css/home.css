@@ -81,7 +81,10 @@ body.home {
     .home__product {
         width: 49%;
     }
-    
+    .home__product__more:hover {
+        transition: all 0.5s ;
+        background-color: var(--colorNaranja);
+    }
 }
 
 /* laptops */
